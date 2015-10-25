@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LVExample4</string>
+
+    <string name="title_section1">- Авторизация</string>
+    <string name="title_section2">- Таксометр</string>
+    <string name="title_section3">- Заказы</string>
+    <string name="title_section4">- Тарифы</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">Какой-то текст</string>
+    <string name="orderacc">Заказ принят</string>
+    <string name="title_activity_three">Таксометр</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_taxometr">СТАРТ</string>
+    <string name="btn_taxometr_stop">Расчет завершен</string>
+</resources>
