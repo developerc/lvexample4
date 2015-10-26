@@ -10,18 +10,31 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="6dp"
-        android:text="Sarah"
+        android:text="Адрес куда ехать"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+<LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
 
+    >
 
     <TextView
         android:id="@+id/tvHometown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/tvName"
-        android:layout_toRightOf="@+id/textView2"
-        android:text="San Marco"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:text="срочный"
+
+        android:layout_weight="2" />
+    <TextView
+        android:id="@+id/tvIndivid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="индивидуальный"
+
+        android:layout_weight="1" />
+
+</LinearLayout>
 
 </LinearLayout>

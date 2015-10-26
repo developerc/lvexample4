@@ -8,18 +8,20 @@ import java.util.ArrayList;
 public class User {
     public String name;
     public String hometown;
+    public String tvIndivid;
     static ArrayList<User> users;
 
-    public User(String name, String hometown) {
+    public User(String name, String hometown, String tvIndivid) {
         this.name = name;
         this.hometown = hometown;
+        this.tvIndivid = tvIndivid;
     }
     public static ArrayList<User> getUsers() {
         // ArrayList<User> users = new ArrayList<User>();
         users = new ArrayList<User>();
-        users.add(new User("Заказ1", "Октябрьская 24"));
-        users.add(new User("Заказ2", "Военный городок 97"));
-        users.add(new User("Заказ3", "Гагарина 5"));
+        users.add(new User("Парковый Гагарина 5а/1", "срочный", "общий"));
+        users.add(new User("Алексеевские планы Ореховая 15 возле шлагбаума", "срочный", "общий"));
+        users.add(new User("Фастовецкая Азина 26", "срочный", "индивидуальный"));
         return users;
     }
 }
