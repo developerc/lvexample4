@@ -16,7 +16,11 @@
     <string name="orderacc">Заказ принят</string>
     <string name="title_activity_three">Таксометр</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world! Ура!</string>
     <string name="btn_taxometr">СТАРТ</string>
     <string name="btn_taxometr_stop">Расчет завершен</string>
+    <string name="title_activity_four">Авторизация</string>
+    <string name="password">Пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="load">Загрузить</string>
 </resources>

@@ -44,6 +44,7 @@ public class CustomUsersAdapter extends ArrayAdapter<User> {
         }*/
 
         // Return the completed view to render on screen
+        //еще комментарий
         return convertView;
     }
 }
